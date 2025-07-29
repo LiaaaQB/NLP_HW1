@@ -12,28 +12,28 @@ Two versions of the model were implemented:
 - **Model B (Small model)**: Uses a minimal feature set, designed to be more efficient and generalizable. There is no test set- more on that later. 
 
 ## Repository Structure
-memm-pos-tagger/
-├── data/
-│ ├── comp1.words
-│ ├── comp2.words
-│ ├── train1.wtag
-│ ├── train2.wtag
-│ └── test1.wtag
-├── trained_models/
-│ ├── weights_1.pkl
-│ └── weights_2.pkl
-├── src/
-│ ├── generate_comp_tagged.py
-│ ├── inference.py
-│ ├── inference2.py
-│ ├── main.py
-│ ├── optimization.py
-│ ├── preprocessing.py
-│ ├── preprocessing2.py
-├── report.pdf
-├── comp_m1.wtag
-├── comp_m2.wtag
-└── README.md
+memm-pos-tagger/  
+├── data/  
+│ ├── comp1.words  
+│ ├── comp2.words  
+│ ├── train1.wtag  
+│ ├── train2.wtag  
+│ └── test1.wtag  
+├── trained_models/  
+│ ├── weights_1.pkl  
+│ └── weights_2.pkl  
+├── src/  
+│ ├── generate_comp_tagged.py  
+│ ├── inference.py  
+│ ├── inference2.py  
+│ ├── main.py  
+│ ├── optimization.py  
+│ ├── preprocessing.py  
+│ ├── preprocessing2.py  
+├── report.pdf  
+├── comp_m1.wtag  
+├── comp_m2.wtag  
+└── README.md  
 
 ## Features Used
 
@@ -60,6 +60,9 @@ This heuristic step helps improve the overall accuracy in predictable scenarios.
 
 ## Evaluation Results
 
-Model	     Accuracy (%)
-Model A	   93.98
-Model B	   90.53
+Model	&nbsp;&nbsp;&nbsp; Accuracy (%)
+
+Model A	 &nbsp;&nbsp;&nbsp; 93.98
+
+
+Model B	&nbsp;&nbsp;&nbsp; 90.53
